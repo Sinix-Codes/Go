@@ -1,5 +1,8 @@
+// Local variable scope only for function block
+
 package main
-var g string="G"
+
+var a = "G"
 
 func main(){
 	n()
@@ -8,11 +11,10 @@ func main(){
 }
 
 func n(){
-	print(g)
+	print(a)
 }
 
 func m(){
-	g="K"
-	g="okSmj ya"
-	print(g)
+	a:="O"
+	print(a)
 }
